@@ -13,8 +13,9 @@ const cors = require('cors');
 app.use(cors())
 app.use(bodyParser.json())
 
-app.use('/numbers', require('./routes/numbers'))
-app.use('/messages', require('./routes/messages'))
+app.use('/users', require('./routes/users'))
+app.use('/auth', require('./routes/auth'))
+app.use('/project-ideas', require('./routes/project-ideas'))
 
 app.get('/', async (req, res) => {
     res.send('<p>HOME</p>');
