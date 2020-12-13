@@ -27,7 +27,7 @@ Finally, users can become "senior planters" through a verification process addin
 With these tools, IdeaTree aims to help creators, developers, and science enthusiasts overcome "idea block" through the power of open-source.
 
 ## How we built it
-
+We are currently developing our platform using Node.js, Heroku, and CockroachDB for our backend REST API as well as React.js, HTML, SCSS, and GitHub Pages for our frontend website published under a domain from domain.com. 
 
 ## Challenges we ran into
 N/A
